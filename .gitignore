@@ -1,0 +1,64 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+wheelhouse/
+
+# Test, coverage, lint, type-check, and task caches
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.cache/
+
+# Generated EIK scan artifacts and reports
+# Export reports intentionally outside the repository when they must be retained.
+output/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# Operating-system and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+*.tmp
+*.temp
+*.bak
+*.orig

@@ -1,0 +1,33 @@
+# EIK - Ethical Intelligence Toolkit v3.0
+# Requirements for Python dependencies
+
+# Core dependencies
+python-dotenv>=1.0.0
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Optional: AI & ML
+google-generativeai>=0.3.0  # For EvilGPT (Gemini API) analysis
+
+# Optional: Report generation
+markdown>=3.5.0
+jinja2>=3.1.0
+weasyprint>=60.0  # For PDF report generation
+reportlab>=4.0.0  # PDF report backend used by EIK.py
+
+# Optional: Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Optional: Security tools integration
+pycryptodome>=3.18.0  # Cryptography support
+
+# Optional: Web scraping & parsing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+tldextract>=5.0.0  # Accurate registered-domain extraction
+
+# Development tools (optional)
+black>=23.0.0  # Code formatting
+flake8>=6.0.0  # Linting
+pytest>=7.0.0  # Testing
